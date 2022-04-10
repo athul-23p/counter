@@ -1,4 +1,25 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 50%;
+  margin: 10% auto;
+  height: 499px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+#controls > button{
+  margin: 10px;
+  background-color: dodgerblue;
+  padding: 10px;
+  color:white;
+  border: none;
+  border-radius: 7px;
+}
+
+#controls > button:hover{
+  background-color: rgb(96, 96, 219);
+}

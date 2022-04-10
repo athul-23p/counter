@@ -7,7 +7,7 @@ function Counter(props) {
   return (
     <div>
       <h1>
-        value :{" "}
+        Counter :{" "}
         <span className={count % 2 === 0 ? "green" : "red"}>{count}</span>
       </h1>
       <div id="controls">
@@ -18,7 +18,7 @@ function Counter(props) {
           Double
         </button>
         <button id="increment" onClick={() => handleChange(1)}>
-          Incremnet
+          Increment
         </button>
       </div>
     </div>
